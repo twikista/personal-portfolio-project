@@ -1,0 +1,34 @@
+:root{
+    /* colr varables */
+    --primary-color:#FF5678;
+    --secondary-color:#000000;
+    --sub-color1:#ffffff;
+    --sub-color2: #999999;
+
+    /* heading Variables */
+--heading-1:2.8rem;
+--heading-2:2.2rem;
+
+}
+
+*, *::before, *::after{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 100%;
+}
+
+body{
+    font-family: 'Work Sans', sans-serif;
+    color: var(--secondary-color);
+}
+
+h1{
+    font-size: var(--heading-1);
+    font-weight: 700;
+    line-height: 3.4rem;
+}
+
